@@ -1,0 +1,11 @@
+!alias exp embed &1& &2&
+
+-title "You currently have {{
+experience = int(get("exp"))
+arg = '&1&' if '&1'+'&' != '&1&' else ''
+experience = experience + int(float(arg))
+set_cvar("exp", experience)
+return exp
+}} experience."
+-thumb "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6b/Experience_Orb_Value_-32768-2.png/revision/latest/scale-to-width-down/150?cb=20200216163015"
+-footer "!exp | made by James#8096"
