@@ -1,11 +1,10 @@
 embed
 &1&
 <drac2>
-set_cvar_nx("exp",0)
 experience = int(get("exp"))
 arg1 = '&1&' if '&1'+'&' != '&1&' else ''
 experience = experience + int(float(arg1))
-set_cvar("exp", experience)
+set_cvar_nx("exp", experience)
 </drac2>
 -title "{{f"{name} currently have __{exp}__ experience"}}"
 -desc "after adding &1& experience to your character."
