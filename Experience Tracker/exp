@@ -1,4 +1,5 @@
 embed
+{{set_cvar_nx("exp",0)}}
 -title "{{f"{name} currently have __{exp}__ experience"}}"
 -desc "Keep up the good work!
 Add or set exp with `!exp <add/set> <#>`"
