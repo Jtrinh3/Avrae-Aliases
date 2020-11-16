@@ -1,11 +1,10 @@
 embed
 &1&
-{{cc="exp"}}
 <drac2>
 experience = int(get("exp"))
 arg1 = '&1&' if '&1'+'&' != '&1&' else ''
 experience = int(float(arg1))
-set_cvar("exp", experience)
+set_cvar_nx("exp", experience)
 </drac2>
 -title "{{f"{name} experience is set to __{exp}__."}}"
 -desc "That's a lot of experience!"
