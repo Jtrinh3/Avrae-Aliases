@@ -5,4 +5,4 @@ https://avrae.io/dashboard/workshop/5fb0380b7e4b0daea5b60945/
 
 # Features to Add
 - [ ] Track Levels
-- [ ] Custom EXP requirements
+- [ ] Custom EXP requirement for levels
